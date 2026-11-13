@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Dhritvi Advanced Dental Care | Dentist, Root Canal, Implants &amp; Braces</title>
+    <meta name="description"
+        content="Dhritvi Advanced Dental Care offers gentle, modern dental treatment for the whole family: checkups, cleaning, root canal, whitening, implants and braces. Book online.">
+    <meta name="theme-color" content="#1d6fe8">
+    <meta property="og:title" content="Dhritvi Advanced Dental Care">
+    <meta property="og:description" content="Modern dentistry with a gentle touch. Book your appointment online.">
+    <meta property="og:type" content="website">
+    <script>
+        /* Always open at the top (Home), unless the link has a #section */
+        if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+        if (!location.hash) window.addEventListener('load', function () { window.scrollTo(0, 0); });
+    </script>
+
+    
+    
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231d6fe8'/%3E%3Cpath d='M20 16c-6 0-9 5-8 11 1 6 3 8 4 14 1 6 3 9 5 9s3-5 4-9c1-3 2-4 3-4s2 1 3 4c1 4 2 9 4 9s4-3 5-9c1-6 3-8 4-14 1-6-2-11-8-11-4 0-6 2-8 2s-4-2-8-2z' fill='white'/%3E%3C/svg%3E">
+
+    <!-- SEO: local business data for Google. REPLACE every value marked CHANGE-ME, then keep or delete this block. -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Dhritvi Advanced Dental Care",
+        "telephone": "+919872867433",
+        "url": "https://CHANGE-ME.example/",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHANGE-ME street address",
+            "addressLocality": "CHANGE-ME city",
+            "addressRegion": "CHANGE-ME state",
+            "postalCode": "CHANGE-ME",
+            "addressCountry": "IN"
+        },
+        "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "20:00" },
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "14:00" }
+        ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="text.css">
+</head>
+
+<body>
+    <!-- Emergency strip (phone number is set in js/main.js) -->
+   <!-- <div class="emergency-bar">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <span>Severe toothache, swelling or a knocked-out tooth?</span>
+        <a href="#contact" data-call><i class="fa-solid fa-phone"></i> Call us now</a>
+    </div>-->
+
+    <header class="site-header">
+        <div class="brand-container">
+            <div class="brand-logo"><i class="fa-solid fa-tooth"></i></div>
+            <h1 class="brand-title">Dhritvi Advanced <span>Dental Care</span></h1>
+        </div>
+        <button type="button" class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="siteNav">
+            <a href="#home">Home</a>
+            <a href="#features">Why Us</a>
+            <a href="#services">Services</a>
+            <a href="#doctor">Doctor</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+            <a href="#booking" class="nav-cta">Book Appointment</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <!-- Background video (muted, looping, decorative). Falls back to the poster image if the video is missing, slow, or motion is reduced. -->
+            <div class="hero-bg" aria-hidden="true">
+                <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata"
+                    poster="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=70&w=1200">
+                    <source src="" type="video/mp4">
+                    <source src="" type="video/webm">
+                </video>
+                <div class="hero-bg-overlay"></div>
+
+            <!-- 3D dental scene (pure CSS/SVG: no image or video file needed) -->
+            <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+                <defs>
+                    <path id="toothP" d="M50 12C42 5 14 3 12 32c-1 18 10 26 12 48 2 20 6 34 14 34 8 0 8-22 12-22s4 22 12 22c8 0 12-14 14-34 2-22 13-30 12-48C86 3 58 5 50 12Z"/>
+                    <radialGradient id="toothFace" cx="32%" cy="22%" r="90%">
+                        <stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#eaf5ff"/><stop offset="1" stop-color="#9ccbf4"/>
+                    </radialGradient>
+                    <g id="tooth3d">
+                        <ellipse cx="56" cy="136" rx="36" ry="5" fill="rgba(0,0,0,.28)"/>
+                        <use href="#toothP" transform="translate(8.1 9.9)" fill="#2b5faa"/><use href="#toothP" transform="translate(7.2 8.8)" fill="#2e64af"/><use href="#toothP" transform="translate(6.3 7.7)" fill="#3169b4"/><use href="#toothP" transform="translate(5.4 6.6)" fill="#346eb9"/><use href="#toothP" transform="translate(4.5 5.5)" fill="#3773be"/><use href="#toothP" transform="translate(3.6 4.4)" fill="#3a78c3"/><use href="#toothP" transform="translate(2.7 3.3)" fill="#3d7dc8"/><use href="#toothP" transform="translate(1.8 2.2)" fill="#4082cd"/><use href="#toothP" transform="translate(0.9 1.1)" fill="#4387d2"/>
+                        <use href="#toothP" fill="url(#toothFace)" stroke="#ffffff" stroke-opacity=".7" stroke-width="1.5"/>
+                        <path d="M24 26c4-9 13-11 20-7" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".95"/>
+                        <path d="M20 44c-1 6 1 10 3 14" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+                    </g>
+                </defs>
+            </svg>
+            <div class="hero-3d" aria-hidden="true">
+                <div class="t3d t3d-a"><svg viewBox="0 0 112 142"><use href="#tooth3d"/></svg></div>
+                <div class="t3d t3d-b"><svg viewBox="0 0 112 142"><use href="#tooth3d"/></svg></div>
+                <div class="t3d t3d-c"><svg viewBox="0 0 112 142"><use href="#tooth3d"/></svg></div>
+                <div class="t3d t3d-d"><svg viewBox="0 0 112 142"><use href="#tooth3d"/></svg></div>
+                <span class="orb3d o1"></span><span class="orb3d o2"></span><span class="orb3d o3"></span><span class="orb3d o4"></span>
+            </div>
+            </div>
+            <!-- Decorative graphics (hidden from screen readers) -->
+            <div class="hero-deco" aria-hidden="true">
+                <span class="blob blob-1"></span>
+                <span class="blob blob-2"></span>
+                <span class="bubble b1"></span><span class="bubble b2"></span><span class="bubble b3"></span><span class="bubble b4"></span>
+                <div class="deco-tooth deco-tooth-1">
+                    <svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                <defs>
+                    <linearGradient id="toothGradA" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0" stop-color="#ffffff"/>
+                        <stop offset="1" stop-color="#cfeeff"/>
+                    </linearGradient>
+                </defs>
+                <path d="M50 12C42 5 14 3 12 32c-1 18 10 26 12 48 2 20 6 34 14 34 8 0 8-22 12-22s4 22 12 22c8 0 12-14 14-34 2-22 13-30 12-48C86 3 58 5 50 12Z" fill="url(#toothGradA)" stroke="#22d3c5" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M26 24c4-8 12-9 18-6" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+            </svg>
+                </div>
+                <div class="deco-tooth deco-tooth-2">
+                    <svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                <defs>
+                    <linearGradient id="toothGradB" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0" stop-color="#ffffff"/>
+                        <stop offset="1" stop-color="#cfeeff"/>
+                    </linearGradient>
+                </defs>
+                <path d="M50 12C42 5 14 3 12 32c-1 18 10 26 12 48 2 20 6 34 14 34 8 0 8-22 12-22s4 22 12 22c8 0 12-14 14-34 2-22 13-30 12-48C86 3 58 5 50 12Z" fill="url(#toothGradB)" stroke="#22d3c5" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M26 24c4-8 12-9 18-6" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+            </svg>
+                </div>
+                <svg class="spark sp1" viewBox="0 0 24 24"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z" fill="currentColor"/></svg>
+                <svg class="spark sp2" viewBox="0 0 24 24"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z" fill="currentColor"/></svg>
+                <svg class="spark sp3" viewBox="0 0 24 24"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z" fill="currentColor"/></svg>
+                <div class="float-chip chip-1"><i class="fa-solid fa-people-group"></i><span><strong>Family friendly</strong>Kids to seniors</span></div>
+                <div class="float-chip chip-2"><i class="fa-regular fa-clock"></i><span><strong>Open 6 days</strong>Mon to Sat</span></div>
+            </div>
+
+            <div class="hero-glass-card">
+                <div class="hero-badge">
+                    <span class="badge-icon"><i class="fa-solid fa-tooth"></i></span>
+                    <span class="badge-text">Gentle Dental Care for the Whole Family</span>
+                    <span class="badge-dot" title="Now booking appointments"></span>
+                </div>
+                <h2>Modern Dentistry with a <span>Gentle Touch</span></h2>
+                <p>Pain-free, modern dental care with a friendly team, planned around you and your whole family.</p>
+                <div class="hero-btns">
+                    <a href="#booking" class="btn-primary"><i class="fa-regular fa-calendar-check"></i> Reserve Your
+                        Slot</a>
+                    <a href="#services" class="btn-secondary">Explore Services</a>
+                    <a href="#contact" class="btn-call" data-call><i class="fa-solid fa-phone"></i> Call Now</a>
+                </div>
+                <ul class="hero-points">
+                    <li><i class="fa-solid fa-circle-check"></i> Gentle, pain-aware care</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Modern equipment</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Easy online booking</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="stats-banner">
+            <div class="stat-item">
+                <div class="stat-number">6+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Happy Patients</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">99.8%</div>
+                <div class="stat-label">Satisfaction Rate</div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- ===== WHY US ===== -->
+            <section id="features" class="why-wrap">
+                <!-- floating 3D shapes (decoration) -->
+                <div class="why-3d-bg" aria-hidden="true">
+                    <span class="orb orb-1"></span>
+                    <span class="orb orb-2"></span>
+                    <span class="ring ring-1"></span>
+                    <span class="ring ring-2"></span>
+                    <span class="gem"></span>
+                </div>
+                <div class="why-intro">
+                    <p class="section-subtitle">Why Choose Us</p>
+                    <h2>Dental care that feels <span>calm, clear</span> and comfortable</h2>
+                    <p>We keep every visit simple: a proper check, a clear explanation, and treatment that is planned with you.</p>
+                    <ul class="why-checks">
+                        <li><i class="fa-solid fa-check"></i> Treatment explained before we start</li>
+                        <li><i class="fa-solid fa-check"></i> Gentle, anxiety-friendly approach</li>
+                        <li><i class="fa-solid fa-check"></i> Care for children, adults and seniors</li>
+                    </ul>
+                    <a href="#doctor" class="why-link">Meet your dentist <i class="fa-solid fa-arrow-right"></i></a>
+
+                    <!-- 3D rotating cube (pure CSS) -->
+                    <div class="cube-scene" aria-hidden="true">
+                        <div class="cube">
+                            <div class="face f-front"><i class="fa-solid fa-tooth"></i></div>
+                            <div class="face f-back"><i class="fa-solid fa-shield-heart"></i></div>
+                            <div class="face f-right"><i class="fa-solid fa-face-smile"></i></div>
+                            <div class="face f-left"><i class="fa-solid fa-user-doctor"></i></div>
+                            <div class="face f-top"><i class="fa-solid fa-heart"></i></div>
+                            <div class="face f-bottom"><i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="cube-shadow"></div>
+                    </div>
+                </div>
+
+                <div class="why-list">
+                    <article class="why-item">
+                        <div class="why-icon"><i class="fa-solid fa-microscope"></i></div>
+                        <div class="why-text">
+                            <h3>Advanced Equipment</h3>
+                            <p>Digital X-rays and up-to-date instruments help us find problems early and treat them accurately.</p>
+                        </div>
+                    </article>
+                    <article class="why-item">
+                        <div class="why-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                        <div class="why-text">
+                            <h3>Expert Specialists</h3>
+                            <p>Experienced, caring dentists who take time to explain your plan in simple words, with costs shared up front.</p>
+                        </div>
+                    </article>
+                    <article class="why-item">
+                        <div class="why-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                        <div class="why-text">
+                            <h3>Sterile Environment</h3>
+                            <p>Instruments are sterilised and surfaces cleaned between patients, so you can relax and feel safe.</p>
+                        </div>
+                    </article>
+                    <article class="why-item">
+                        <div class="why-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                        <div class="why-text">
+                            <h3>Pain-Free Comfort</h3>
+                            <p>Gentle techniques and local anaesthesia where needed, so every visit feels as easy as possible.</p>
+                        </div>
+                    </article>
+                </div>
+                <!-- New: first-visit steps + help banner (spans both columns) -->
+                <div class="why-journey">
+                    <div class="journey-head">
+                        <p class="section-subtitle">Your First Visit</p>
+                        <h3>What to expect, step by step</h3>
+                    </div>
+
+                    <ol class="journey-steps">
+                        <li>
+                            <span class="journey-num">1</span>
+                            <div class="journey-icon"><i class="fa-regular fa-calendar-check"></i></div>
+                            <h4>Book online</h4>
+                            <p>Choose a service and a time. Our team calls to confirm your appointment.</p>
+                        </li>
+                        <li>
+                            <span class="journey-num">2</span>
+                            <div class="journey-icon"><i class="fa-solid fa-comments"></i></div>
+                            <h4>Check-up and talk</h4>
+                            <p>The dentist examines your teeth and listens to your concerns and questions.</p>
+                        </li>
+                        <li>
+                            <span class="journey-num">3</span>
+                            <div class="journey-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+                            <h4>A clear plan</h4>
+                            <p>You get a simple plan and an estimate of the cost before anything begins.</p>
+                        </li>
+                        <li>
+                            <span class="journey-num">4</span>
+                            <div class="journey-icon"><i class="fa-solid fa-face-smile"></i></div>
+                            <h4>Gentle treatment</h4>
+                            <p>Treatment starts only when you are comfortable and ready to go ahead.</p>
+                        </li>
+                    </ol>
+
+                    <div class="journey-help">
+                        <div class="help-text">
+                            <strong>Not sure which treatment you need?</strong>
+                            <span>Send us a message and we will point you in the right direction.</span>
+                        </div>
+                        <a class="btn-primary" data-wa href="#contact" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== SERVICES ===== -->
+            <section id="services">
+                <div class="section-header">
+                    <p class="section-subtitle">Specialized Care</p>
+                    <h2 class="section-title">Our Clinical Services</h2>
+                </div>
+
+                <div class="filter-bar" id="filterBar">
+                    <button type="button" class="filter-btn active" data-filter="all">All</button>
+                    <button type="button" class="filter-btn" data-filter="Preventive">Preventive</button>
+                    <button type="button" class="filter-btn" data-filter="Hygiene">Hygiene</button>
+                    <button type="button" class="filter-btn" data-filter="Therapy">Therapy</button>
+                    <button type="button" class="filter-btn" data-filter="Cosmetic">Cosmetic</button>
+                    <button type="button" class="filter-btn" data-filter="Restorative">Restorative</button>
+                    <button type="button" class="filter-btn" data-filter="Orthodontics">Orthodontics</button>
+                </div>
+
+                <div class="services-grid" id="servicesGrid">
+                    <div class="service-card" data-cat="Preventive">
+                        <div>
+                            <div class="service-header-icon">
+                                <div class="service-icon"><i class="fa-solid fa-stethoscope"></i></div>
+                                <span class="service-tag">Preventive</span>
+                            </div>
+                            <h3>General Checkup</h3>
+                            <p>Comprehensive oral exam, digital X-rays, and preventive screenings to catch dental issues
+                                early.</p>
+                        </div>
+                        <div>
+                            <div class="service-meta">
+                                <span><i class="fa-regular fa-clock"></i>30 Mins</span>
+                                <span><i class="fa-solid fa-check"></i>Exam Included</span>
+                            </div>
+                            <button type="button" class="service-book-btn"
+                                onclick="selectServiceAndScroll('General Checkup')">Book Checkup <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-cat="Hygiene">
+                        <div>
+                            <div class="service-header-icon">
+                                <div class="service-icon"><i class="fa-solid fa-droplet"></i></div>
+                                <span class="service-tag">Hygiene</span>
+                            </div>
+                            <h3>Teeth Cleaning</h3>
+                            <p>Ultrasonic scaling and deep polishing to eliminate tough tartar, plaque, and dark surface
+                                stains.</p>
+                        </div>
+                        <div>
+                            <div class="service-meta">
+                                <span><i class="fa-regular fa-clock"></i>45 Mins</span>
+                                <span><i class="fa-solid fa-check"></i>Deep Clean</span>
+                            </div>
+                            <button type="button" class="service-book-btn"
+                                onclick="selectServiceAndScroll('Teeth Cleaning')">Book Cleaning <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-cat="Therapy">
+                        <div>
+                            <div class="service-header-icon">
+                                <div class="service-icon"><i class="fa-solid fa-kit-medical"></i></div>
+                                <span class="service-tag">Therapy</span>
+                            </div>
+                            <h3>Root Canal Treatment</h3>
+                            <p>Pain-free root canal endodontic procedures structured to save deeply decayed teeth
+                                quickly.</p>
+                        </div>
+                        <div>
+                            <div class="service-meta">
+                                <span><i class="fa-regular fa-clock"></i>60 Mins</span>
+                                <span><i class="fa-solid fa-check"></i>Pain Relief</span>
+                            </div>
+                            <button type="button" class="service-book-btn"
+                                onclick="selectServiceAndScroll('Root Canal Treatment')">Book Root Canal <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-cat="Cosmetic">
+                        <div>
+                            <div class="service-header-icon">
+                                <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                                <span class="service-tag">Cosmetic</span>
+                            </div>
+                            <h3>Teeth Whitening</h3>
+                            <p>In-office laser whitening treatment yielding immediate 3-5 shade brighter smile results.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="service-meta">
+                                <span><i class="fa-regular fa-clock"></i>45 Mins</span>
+                                <span><i class="fa-solid fa-check"></i>Instant Shine</span>
+                            </div>
+                            <button type="button" class="service-book-btn"
+                                onclick="selectServiceAndScroll('Teeth Whitening')">Book Whitening <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-cat="Restorative">
+                        <div>
+                            <div class="service-header-icon">
+                                <div class="service-icon"><i class="fa-solid fa-tooth"></i></div>
+                                <span class="service-tag">Restorative</span>
+                            </div>
+                            <h3>Dental Implants</h3>
+                            <p>Permanent, natural-looking titanium implants designed to replace missing teeth and
+                                restore full chewing functionality.</p>
+                        </div>
+                        <div>
+                            <div class="service-meta">
+                                <span><i class="fa-regular fa-clock"></i>90 Mins</span>
+                                <span><i class="fa-solid fa-check"></i>Permanent Solution</span>
+                            </div>
+                            <button type="button" class="service-book-btn"
+                                onclick="selectServiceAndScroll('Dental Implants')">Book Implants <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-cat="Orthodontics">
+                        <div>
+                            <div class="service-header-icon">
+                                <div class="service-icon"><i class="fa-solid fa-face-smile"></i></div>
+                                <span class="service-tag">Orthodontics</span>
+                            </div>
+                            <h3>Braces &amp; Aligners</h3>
+                            <p>Customized clear aligners and traditional braces to correct misalignments and straighten
+                                your smile discreetly.</p>
+                        </div>
+                        <div>
+                            <div class="service-meta">
+                                <span><i class="fa-regular fa-clock"></i>45 Mins</span>
+                                <span><i class="fa-solid fa-check"></i>Custom Fit</span>
+                            </div>
+                            <button type="button" class="service-book-btn"
+                                onclick="selectServiceAndScroll('Braces & Aligners')">Book Orthodontics <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== DOCTOR PROFILE =====
+                 REPLACE the placeholder text below with the real doctor's details.
+                 To use a photo: put it in images/doctor.jpg and replace the
+                 <div class="doctor-photo">...</div> block with:
+                 <img class="doctor-photo" src="images/doctor.jpg" alt="Dr. Name, dentist"> -->
+            <section id="doctor">
+                <div class="doctor-wrap">
+                    <div class="doctor-photo" role="img" aria-label="Doctor photo placeholder">
+                        <i class="fa-solid fa-user-doctor"></i>
+                        <span>Add doctor photo</span>
+                    </div>
+
+                    <div class="doctor-info">
+                        <p class="section-subtitle">Meet Your Dentist</p>
+                        <h2 class="section-title" style="text-align:left;">Dr. [Doctor Name]</h2>
+                        <p class="doctor-role">[Qualification, e.g. BDS, MDS] &middot; [Specialty]</p>
+                        <p class="doctor-bio">Write two or three sentences here about the doctor's training, approach to
+                            patient care and areas of interest. Patients like to know who will treat them before they
+                            visit.</p>
+
+                        <ul class="doctor-facts">
+                            <li><i class="fa-solid fa-id-card"></i>
+                                <div><strong>Registration No.</strong><span>[Dental Council registration number]</span>
+                                </div>
+                            </li>
+                            <li><i class="fa-solid fa-graduation-cap"></i>
+                                <div><strong>Education</strong><span>[College and year]</span></div>
+                            </li>
+                            <li><i class="fa-solid fa-briefcase-medical"></i>
+                                <div><strong>Experience</strong><span>[Years and areas of practice]</span></div>
+                            </li>
+                            <li><i class="fa-solid fa-language"></i>
+                                <div><strong>Languages</strong><span>[English, Hindi, ...]</span></div>
+                            </li>
+                        </ul>
+
+                        <a href="#booking" class="btn-primary"><i class="fa-regular fa-calendar-check"></i> Book with
+                            the doctor</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== BOOKING ===== -->
+            <section id="booking" class="booking-section">
+                <aside class="booking-info">
+                    <p class="section-subtitle" style="text-align:left;">Appointment</p>
+                    <h2>Book your visit in under a minute</h2>
+                    <p>Pick a service, choose a time, and our team will confirm by phone.</p>
+
+                    <ul class="booking-steps">
+                        <li><span class="step-dot">1</span>
+                            <div><strong>Share your details</strong><span>Name, phone and the service you need.</span>
+                            </div>
+                        </li>
+                        <li><span class="step-dot">2</span>
+                            <div><strong>Choose a time slot</strong><span>Morning, afternoon or evening.</span></div>
+                        </li>
+                        <li><span class="step-dot">3</span>
+                            <div><strong>Get confirmation</strong><span>We call to confirm your appointment.</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="booking-contact">
+                        <div><i class="fa-solid fa-phone"></i> +91 98728 67433</div>
+                        <div><i class="fa-regular fa-clock"></i> Mon - Sat: 09:00 AM - 08:00 PM</div>
+                        <div><i class="fa-regular fa-clock"></i> Sunday: 10:00 AM - 02:00 PM</div>
+                    </div>
+                </aside>
+
+                <div class="booking-form-wrap">
+                    <h3>Schedule Your Visit</h3>
+                    <p class="form-intro">Fields marked with all details help us prepare for your visit.</p>
+
+                    <form id="appointmentForm" onsubmit="handleBookingSubmission(event)">
+                        <div class="form-group">
+                            <label>Patient Type</label>
+                            <div class="patient-type">
+                                <label><input type="radio" name="patientType" value="New" checked><span><i
+                                            class="fa-solid fa-user-plus"></i> New Patient</span></label>
+                                <label><input type="radio" name="patientType" value="Returning"><span><i
+                                            class="fa-solid fa-user-check"></i> Returning</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-regular fa-user"></i>
+                                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="emailAddress">Email Address</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <input type="email" id="emailAddress" name="email" placeholder="name@example.com"
+                                        required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <input type="tel" id="phoneNumber" name="phone" placeholder="+91 98728 67433"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="selectedService">Select Service</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-stethoscope"></i>
+                                    <select id="selectedService" name="service" required>
+                                        <option value="" disabled selected>Choose a clinical service</option>
+                                        <option value="General Checkup">General Checkup</option>
+                                        <option value="Teeth Cleaning">Teeth Cleaning</option>
+                                        <option value="Root Canal Treatment">Root Canal Treatment</option>
+                                        <option value="Teeth Whitening">Teeth Whitening</option>
+                                        <option value="Dental Implants">Dental Implants</option>
+                                        <option value="Braces & Aligners">Braces &amp; Aligners</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="appointmentDate">Preferred Date</label>
+                            <div class="input-wrapper">
+                                <i class="fa-regular fa-calendar"></i>
+                                <input type="date" id="appointmentDate" name="date" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="slot-label">
+                                <label>Available Time Slots</label>
+                                <span class="slot-subtitle">Select one</span>
+                            </div>
+
+                            <div class="slot-group-title"><i class="fa-regular fa-sun"></i> Morning</div>
+                            <div class="time-slots">
+                                <button type="button" class="slot-btn" onclick="selectSlot(this)">09:00 AM</button>
+                                <button type="button" class="slot-btn" onclick="selectSlot(this)">10:30 AM</button>
+                            </div>
+
+                            <div class="slot-group-title"><i class="fa-solid fa-cloud-sun"></i> Afternoon</div>
+                            <div class="time-slots">
+                                <button type="button" class="slot-btn" onclick="selectSlot(this)">12:00 PM</button>
+                                <button type="button" class="slot-btn" onclick="selectSlot(this)">03:00 PM</button>
+                                <button type="button" class="slot-btn" onclick="selectSlot(this)">04:30 PM</button>
+                            </div>
+
+                            <div class="slot-group-title"><i class="fa-regular fa-moon"></i> Evening</div>
+                            <div class="time-slots">
+                                <button type="button" class="slot-btn" onclick="selectSlot(this)">06:00 PM</button>
+                            </div>
+
+                            <input type="hidden" id="selectedTimeSlot">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="medicalNotes">Additional Notes / Symptoms (Optional)</label>
+                            <div class="input-wrapper">
+                                <i class="fa-regular fa-comment-dots" style="top: 1.5rem; transform: none;"></i>
+                                <textarea id="medicalNotes" name="notes"
+                                    placeholder="Mention any specific pain, sensitivity, or medical history..."></textarea>
+                            </div>
+                        </div>
+
+                        <label class="consent-row">
+                            <input type="checkbox" id="consentCheck" required>
+                            <span>I agree to be contacted about this appointment and have read the <a
+                                    href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
+                        </label>
+
+                        <button type="submit" class="submit-btn"><i class="fa-solid fa-calendar-check"></i> Confirm
+                            Reservation</button>
+                        <p class="form-note"><i class="fa-solid fa-lock"></i> Your details are used only to confirm your
+                            appointment.</p>
+
+                        <div id="confirmationBox" class="confirmation-message">
+                            <i class="fa-solid fa-circle-check"></i> Appointment successfully requested! Our clinic will
+                            call you shortly to confirm.
+                            <div style="margin-top: 0.9rem;">
+                                <a id="whatsappLink" href="#" target="_blank" rel="noopener" class="btn-primary"
+                                    style="background: #25d366; box-shadow: none; padding: 0.6rem 1.2rem; font-size: 0.9rem;">
+                                    <i class="fa-brands fa-whatsapp"></i> Also send details on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- ===== REVIEWS ===== -->
+            <section id="reviews" class="reviews-section">
+                <div class="section-header" style="margin-bottom: 2rem;">
+                    <p class="section-subtitle">Testimonials</p>
+                    <h2 class="section-title">Patient Experiences &amp; Reviews</h2>
+                </div>
+
+                <form id="reviewForm" onsubmit="handleReviewSubmission(event)"
+                    style="background: var(--bg-main); padding: 1.8rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); margin-bottom: 2.5rem;">
+                    <h4 style="margin-bottom: 1rem; color: var(--secondary); font-size: 1.1rem;">Share Your Experience
+                    </h4>
+                    <div class="form-row">
+                        <div class="form-group" style="margin-bottom: 1rem;">
+                            <label for="reviewerName">Your Name</label>
+                            <input type="text" id="reviewerName" placeholder="e.g. Aman Sharma" required
+                                style="padding-left: 1rem;">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1rem;">
+                            <label>Rating</label>
+                            <div class="star-rating-input" id="starRatingInput">
+                                <i class="fa-solid fa-star active" onclick="setRating(1)"></i>
+                                <i class="fa-solid fa-star active" onclick="setRating(2)"></i>
+                                <i class="fa-solid fa-star active" onclick="setRating(3)"></i>
+                                <i class="fa-solid fa-star active" onclick="setRating(4)"></i>
+                                <i class="fa-solid fa-star active" onclick="setRating(5)"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 1rem;">
+                        <label for="reviewComment">Your Review</label>
+                        <textarea id="reviewComment" placeholder="Tell us about your treatment and care quality..."
+                            required style="padding-left: 1rem; min-height: 80px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="padding: 0.7rem 1.5rem; font-size: 0.95rem;">
+                        <i class="fa-solid fa-paper-plane"></i> Submit Review
+                    </button>
+                </form>
+
+                <div id="reviewsContainer" class="reviews-grid">
+                    <div class="review-card">
+                        <div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="review-text">"Had a root canal procedure done here, and I can honestly say it was
+                                completely pain-free. The doctors are exceptionally professional and caring!"</p>
+                        </div>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">RP</div>
+                            <div class="reviewer-details">
+                                <h4>Rohanpreet Singh</h4><span>Root Canal Patient</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="review-text">"State-of-the-art clinic equipment and very hygienic environment. The
+                                teeth whitening gave me instant noticeable results. Highly recommended!"</p>
+                        </div>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">NK</div>
+                            <div class="reviewer-details">
+                                <h4>Neha Kapoor</h4><span>Cosmetic Treatment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!-- ===== CONTACT & MAP =====
+                 1) Replace the address, phone and email below.
+                 2) For an exact pin: open your clinic on Google Maps > Share > Embed a map,
+                    copy the src="..." link and paste it into the iframe src below. -->
+            <section id="contact" class="contact-section">
+                <div class="section-header" style="margin-bottom: 2rem;">
+                    <p class="section-subtitle">Find Us</p>
+                    <h2 class="section-title">Visit the Clinic</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div><strong>Address</strong><span>[Clinic address, city, PIN code]</span></div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div><strong>Phone</strong><span><a href="tel:+919876543210" data-call>+91 98765
+                                        43210</a></span></div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <div><strong>WhatsApp</strong><span><a href="#" data-wa target="_blank" rel="noopener">Chat
+                                        with us</a></span></div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div><strong>Email</strong><span>[clinic@yourdomain.com]</span></div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-regular fa-clock"></i>
+                            <div><strong>Hours</strong><span>Mon - Sat: 09:00 AM - 08:00 PM<br>Sunday: 10:00 AM - 02:00
+                                    PM</span></div>
+                        </div>
+                        <a class="btn-primary" id="directionsLink"
+                            href="https://www.google.com/maps/search/?api=1&amp;query=Dhritvi+Advanced+Dental+Care"
+                            target="_blank" rel="noopener"><i class="fa-solid fa-diamond-turn-right"></i> Get
+                            directions</a>
+                    </div>
+
+                    <div class="map-frame">
+                        <iframe title="Clinic location on Google Maps"
+                            src="https://www.google.com/maps?q=Dhritvi+Advanced+Dental+Care&amp;output=embed"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== FAQ =====
+                 Add or edit questions by copying one <details> block.
+                 Review the answers so they match how your clinic actually works. -->
+            <section id="faq" class="faq-section">
+                <div class="section-header" style="margin-bottom: 2rem;">
+                    <p class="section-subtitle">Questions</p>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item" open>
+                        <summary>Is a root canal treatment painful?</summary>
+                        <p>The treatment is done under local anaesthesia, so most patients feel pressure rather than
+                            pain during the procedure. Some mild soreness afterwards is common and usually settles
+                            within a few days. Your dentist will explain what to expect for your tooth.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How often should I get a dental checkup?</summary>
+                        <p>Most people are advised to visit every six months. If you have gum disease, braces or other
+                            ongoing conditions, your dentist may suggest more frequent visits.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Do you treat dental emergencies?</summary>
+                        <p>Yes. If you have severe pain, swelling, bleeding or a broken or knocked-out tooth, call the
+                            clinic straight away using the emergency number on this page so we can see you as early as
+                            possible.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How long do whitening results last?</summary>
+                        <p>It depends on your habits. Tea, coffee, smoking and poor brushing can bring staining back
+                            sooner. Good home care and regular cleaning help the results last longer.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Are braces or aligners suitable for adults?</summary>
+                        <p>Yes, many adults have orthodontic treatment. After an examination, the dentist will tell you
+                            whether braces or clear aligners suit your teeth and how long treatment is likely to take.
+                        </p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How do I know what my treatment will cost?</summary>
+                        <p>Cost depends on the treatment you need. After your examination, the dentist will explain the
+                            plan and the estimated cost before any treatment begins.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How does online booking work?</summary>
+                        <p>Choose a service, date and time in the booking form and submit it. Our team will call you to
+                            confirm the appointment. Your request is not final until we confirm it.</p>
+                    </details>
+                </div>
+            </section>
+        </div>
+        
+    </main>
+
+    <!-- Floating call and WhatsApp buttons (numbers are set in js/main.js) -->
+    <div class="float-actions">
+        <a class="float-btn float-wa" data-wa href="#contact" target="_blank" rel="noopener"
+            aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a class="float-btn float-call" data-call href="#contact" aria-label="Call the clinic"><i
+                class="fa-solid fa-phone"></i></a>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="brand-container">
+                    <div class="brand-logo"><i class="fa-solid fa-tooth"></i></div>
+                    <h2 class="brand-title" style="color: white;">Dhritvi Advanced <span
+                            style="color: var(--accent);">Dental Care</span></h2>
+                </div>
+                <p>Bringing international standards of dentistry and gentle family care to your neighborhood with
+                    advanced digital technology.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Why Choose Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#doctor">Our Doctor</a></li>
+                    <li><a href="#reviews">Patient Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact &amp; Map</a></li>
+                    <li><a href="#booking">Book Appointment</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Clinical Services</h4>
+                <ul>
+                    <li><a href="#services">General Checkup</a></li>
+                    <li><a href="#services">Teeth Cleaning</a></li>
+                    <li><a href="#services">Root Canal Therapy</a></li>
+                    <li><a href="#services">Teeth Whitening</a></li>
+                    <li><a href="#services">Dental Implants</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Working Hours</h4>
+                <ul>
+                    <li><strong style="color: white;">Mon - Sat:</strong> 09:00 AM - 08:00 PM</li>
+                    <li><strong style="color: white;">Sunday:</strong> 10:00 AM - 02:00 PM</li>
+                    <li style="margin-top: 1.2rem; color: var(--accent);"><i class="fa-solid fa-phone"></i> +91 98728
+                        67433</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dhritvi Advanced Dental Care. All rights reserved. &middot; <a href="privacy.html"
+                    class="footer-legal">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script>
+
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwMscpGcID8yHGjd-_4n_7hDwdmL6GgJJ87Clk5WQ-j-tt8b-VMumczcNWQxi6xD2NS6Q/exec';
+const WHATSAPP_NUMBER = '919872867433';
+const CLINIC_PHONE = '919872867433';
+
+let currentRating = 5;
+
+document.documentElement.classList.add('js-reveal');
+
+/* Mobile menu (hamburger) */
+(function () {
+    const toggle = document.getElementById('navToggle');
+    const nav = document.getElementById('siteNav');
+    if (!toggle || !nav) return;
+    function setOpen(open) {
+        nav.classList.toggle('open', open);
+        toggle.classList.toggle('open', open);
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+    toggle.addEventListener('click', e => { e.stopPropagation(); setOpen(!nav.classList.contains('open')); });
+    nav.addEventListener('click', e => { if (e.target.closest('a')) setOpen(false); });
+    document.addEventListener('click', e => { if (!nav.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') setOpen(false); });
+    window.addEventListener('resize', () => { if (window.innerWidth > 960) setOpen(false); });
+})();
+
+/* 3D tilt on mouse hover + flip-in when scrolled into view */
+(function () {
+    const items = document.querySelectorAll('.why-item, .journey-steps li');
+    const heroCard = document.querySelector('.hero-glass-card');
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (canHover && !reduce && heroCard) {
+        heroCard.addEventListener('pointermove', e => {
+            const r = heroCard.getBoundingClientRect();
+            heroCard.style.setProperty('--ry', (((e.clientX - r.left) / r.width - 0.5) * 6).toFixed(2) + 'deg');
+            heroCard.style.setProperty('--rx', ((0.5 - (e.clientY - r.top) / r.height) * 6).toFixed(2) + 'deg');
+        });
+        heroCard.addEventListener('pointerleave', () => {
+            heroCard.style.setProperty('--rx', '0deg');
+            heroCard.style.setProperty('--ry', '0deg');
+        });
+    }
+
+    if (canHover && !reduce) {
+        items.forEach(el => {
+            el.addEventListener('pointermove', e => {
+                const r = el.getBoundingClientRect();
+                const x = (e.clientX - r.left) / r.width;
+                const y = (e.clientY - r.top) / r.height;
+                el.style.setProperty('--ry', ((x - 0.5) * 14).toFixed(2) + 'deg');
+                el.style.setProperty('--rx', ((0.5 - y) * 14).toFixed(2) + 'deg');
+                el.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
+                el.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+            });
+            el.addEventListener('pointerleave', () => {
+                el.style.setProperty('--rx', '0deg');
+                el.style.setProperty('--ry', '0deg');
+            });
+        });
+    }
+
+    /* mouse parallax for the floating 3D shapes in Why Us */
+    const why = document.getElementById('features');
+    if (why && canHover && !reduce) {
+        why.addEventListener('pointermove', e => {
+            const r = why.getBoundingClientRect();
+            why.style.setProperty('--px', ((e.clientX - r.left) / r.width - 0.5).toFixed(3));
+            why.style.setProperty('--py', ((e.clientY - r.top) / r.height - 0.5).toFixed(3));
+        });
+    }
+
+    if (!('IntersectionObserver' in window)) { items.forEach(el => el.classList.add('in')); return; }
+    const io = new IntersectionObserver(entries => {
+        entries.forEach(en => {
+            if (!en.isIntersecting) return;
+            const siblings = Array.from(en.target.parentElement.children);
+            en.target.style.setProperty('--d', (siblings.indexOf(en.target) * 0.12) + 's');
+            en.target.classList.add('in');
+            io.unobserve(en.target);
+        });
+    }, { threshold: 0.15 });
+    items.forEach(el => io.observe(el));
+})();
+
+/* Hero video: skip it on data saver / reduced motion, and never show a broken player */
+(function () {
+    const v = document.getElementById('heroVideo');
+    if (!v) return;
+    const conn = navigator.connection || {};
+    const lowData = conn.saveData || /2g/.test(conn.effectiveType || '');
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (lowData || reduce) { v.removeAttribute('autoplay'); v.pause(); v.classList.add('is-off'); return; }
+    v.addEventListener('error', () => v.classList.add('is-off'), true);
+    v.addEventListener('playing', () => v.classList.add('is-on'));
+    const p = v.play();
+    if (p && p.catch) p.catch(() => v.classList.add('is-off'));
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) v.pause(); else if (!v.classList.contains('is-off')) v.play().catch(() => {});
+    });
+})();
+
+/* Point every Call and WhatsApp button at the numbers above */
+document.querySelectorAll('[data-call]').forEach(a => { a.href = 'tel:+' + CLINIC_PHONE; });
+document.querySelectorAll('[data-wa]').forEach(a => {
+    a.href = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' +
+        encodeURIComponent('Hello, I would like to book an appointment.');
+});
+
+/* Prevent booking dates in the past */
+(function () {
+    const d = new Date();
+    const iso = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    document.getElementById('appointmentDate').min = iso;
+})();
+
+/* Services filter */
+document.getElementById('filterBar').addEventListener('click', function (e) {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    document.querySelectorAll('#servicesGrid .service-card').forEach(card => {
+        const show = filter === 'all' || card.dataset.cat === filter;
+        card.style.display = show ? 'flex' : 'none';
+        if (show) { card.style.animation = 'none'; card.offsetHeight; card.style.animation = ''; }
+    });
+});
+
+function selectServiceAndScroll(serviceName) {
+    document.getElementById('selectedService').value = serviceName;
+    document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+}
+
+function selectSlot(button) {
+    document.querySelectorAll('.slot-btn').forEach(btn => btn.classList.remove('selected'));
+    button.classList.add('selected');
+    document.getElementById('selectedTimeSlot').value = button.textContent;
+}
+
+async function handleBookingSubmission(event) {
+    event.preventDefault();
+    const timeSlot = document.getElementById('selectedTimeSlot').value;
+    if (!timeSlot) {
+        alert('Please select an available time slot for your appointment.');
+        return;
+    }
+
+    const form = document.getElementById('appointmentForm');
+    const data = {
+        patientType: form.patientType.value,
+        name: form.fullName.value.trim(),
+        email: form.email.value.trim(),
+        phone: form.phone.value.trim(),
+        service: form.service.value,
+        date: form.date.value,
+        time: timeSlot,
+        notes: form.notes.value.trim()
+    };
+
+    /* 1) Send to Google Sheet / owner email */
+    const submitBtn = form.querySelector('.submit-btn');
+    submitBtn.disabled = true;
+    if (SHEET_URL) {
+        try {
+            await fetch(SHEET_URL, {
+                method: 'POST',
+                mode: 'no-cors',
+                body: new URLSearchParams(data)
+            });
+        } catch (err) {
+            alert('We could not send your request. Please call the clinic to book.');
+            submitBtn.disabled = false;
+            return;
+        }
+    }
+    submitBtn.disabled = false;
+
+    /* 2) Prepare WhatsApp message */
+    const msg = 'New appointment request\n' +
+        'Name: ' + data.name + '\n' +
+        'Phone: ' + data.phone + '\n' +
+        'Service: ' + data.service + '\n' +
+        'Date: ' + data.date + '\n' +
+        'Time: ' + data.time + '\n' +
+        'Patient: ' + data.patientType +
+        (data.notes ? '\nNotes: ' + data.notes : '');
+    document.getElementById('whatsappLink').href =
+        'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg);
+
+    const confirmationBox = document.getElementById('confirmationBox');
+    confirmationBox.style.display = 'block';
+    form.reset();
+    document.querySelectorAll('.slot-btn').forEach(btn => btn.classList.remove('selected'));
+    document.getElementById('selectedTimeSlot').value = '';
+
+    setTimeout(() => { confirmationBox.style.display = 'none'; }, 20000);
+}
+
+function setRating(rating) {
+    currentRating = rating;
+    document.querySelectorAll('#starRatingInput i').forEach((star, index) => {
+        if (index < rating) {
+            star.classList.add('active', 'fa-solid');
+            star.classList.remove('fa-regular');
+        } else {
+            star.classList.remove('active', 'fa-solid');
+            star.classList.add('fa-regular');
+        }
+    });
+}
+
+function handleReviewSubmission(event) {
+    event.preventDefault();
+    const name = document.getElementById('reviewerName').value.trim();
+    const comment = document.getElementById('reviewComment').value.trim();
+    const initials = name.split(/\s+/).map(n => n[0]).join('').toUpperCase().substring(0, 2);
+
+    const card = document.createElement('div');
+    card.className = 'review-card';
+
+    const top = document.createElement('div');
+    const stars = document.createElement('div');
+    stars.className = 'stars';
+    for (let i = 1; i <= 5; i++) {
+        const s = document.createElement('i');
+        s.className = i <= currentRating ? 'fa-solid fa-star' : 'fa-regular fa-star';
+        if (i > currentRating) s.style.color = '#cbd5e1';
+        stars.appendChild(s);
+    }
+    const text = document.createElement('p');
+    text.className = 'review-text';
+    text.textContent = '"' + comment + '"';   // textContent avoids HTML injection
+    top.append(stars, text);
+
+    const info = document.createElement('div');
+    info.className = 'reviewer-info';
+    const avatar = document.createElement('div');
+    avatar.className = 'reviewer-avatar';
+    avatar.textContent = initials;
+    const details = document.createElement('div');
+    details.className = 'reviewer-details';
+    const h4 = document.createElement('h4');
+    h4.textContent = name;
+    const span = document.createElement('span');
+    span.textContent = 'Verified Patient';
+    details.append(h4, span);
+    info.append(avatar, details);
+
+    card.append(top, info);
+    document.getElementById('reviewsContainer').prepend(card);
+
+    document.getElementById('reviewForm').reset();
+    setRating(5);
+}
+
+</script>
+
+</body>
+
+</html>
